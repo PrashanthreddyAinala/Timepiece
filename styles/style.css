@@ -12,6 +12,14 @@
   --white-shade: #f6f6f6;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 body {
   margin: 0px;
   font-family: "Inter", sans-serif;
@@ -28,6 +36,10 @@ body {
   user-select: none;
   z-index: 100;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo {
+  color: var(--primary-1);
 }
 
 .nav-section p {
@@ -100,4 +112,57 @@ body {
 .shadow-card {
   background-color: var(--light-blue);
   width: 19rem;
+}
+
+.aside {
+  position: sticky;
+  top: 5rem;
+  width: 20%;
+  background-color: var(--white-shade);
+  margin: 1rem;
+  min-height: 80vh;
+  padding: 1rem;
+}
+
+.filter {
+  color: var(--secondary);
+}
+
+p {
+  margin: 0;
+}
+
+.cross-icon {
+  width: 0.8rem;
+  margin-right: 0.8px;
+}
+
+.clear-filter {
+  color: var(--error-color);
+  user-select: none;
+  cursor: pointer;
+}
+
+.products-main {
+  width: 75%;
+  background-color: var(--white-shade);
+  margin: 1rem 0rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.products-main .shadow-card {
+  background-color: var(--light-blue);
+  width: 15rem;
+}
+
+.products-main .card-image {
+  padding: 1rem;
+  width: 86%;
+  border-radius: 1.5rem;
+  height: 12rem;
+}
+
+.text-strike {
+  text-decoration: line-through;
 }

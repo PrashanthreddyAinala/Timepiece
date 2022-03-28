@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>TimePiece</title>
+    <link rel="stylesheet" href="https://dropcss.netlify.app/styles/drop.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo-section">
+        <a href="./index.html" class="color-primary">
+          <p class="font-size-2xl">TimePiece</p>
+        </a>
+      </div>
+      <div class="nav-section font-size-lg">
+        <p>
+          <a href="./wishlist.html " class="color-primary flex align-center"
+            ><img src="../assets/wishlist.png" />wishlist</a
+          >
+        </p>
+        <p>
+          <a href="./cart.html " class="color-primary flex align-center"
+            ><img src="../assets/cart.png" />Cart</a
+          >
+        </p>
+        <p><img src="../assets/user.png" />SignIn</p>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="cart-items">
+        <div class="deliver-details flex justify-between">
+          <div>
+            <p class="font-size-lg">
+              Deliver to: <span class="text-medium">Prashanth Reddy</span>
+            </p>
+            <p class="padding-top-1">Hyderabad, Telangana, India</p>
+          </div>
+          <div class="add-btn">
+            <p class="text-medium font-size-sm">Change address</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-medium font-size-lg margin-top-2">Cart Items</p>
+          <div class="cart-list flex relative">
+            <div>
+              <img src="../assets/products/sonata.png" />
+            </div>
+            <div class="padding-1">
+              <p class="text-medium font-size-xl">Sonata</p>
+              <p class="font-size-lg padding-top-1">
+                Slash From SF Digital Watch
+              </p>
+              <div class="flex align-center margin-top-1">
+                <p>Quantity : 1</p>
+                <button class="quantity-btn">+</button>
+                <button class="quantity-btn">-</button>
+              </div>
+              <p class="padding-top-2">
+                Rs. 1499 <span class="text-strike font-size-sm">Rs.1999</span>
+              </p>
+              <button class="btn btn-outline-secondary">
+                <img src="../assets/wishlist.png" />
+                Move to wishlist
+              </button>
+              <div class="cart-list-remove">
+                <img src="../assets/deleteIcon.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-total">
+        <p class="text-medium font-size-lg">Price details (1 item)</p>
+        <table>
+          <tr>
+            <td>
+              <p class="font-size-lg margin-top-1">Subtotal</p>
+            </td>
+            <td>
+              <p class="font-size-lg margin-top-1 margin-x-1">:</p>
+            </td>
+            <td>
+              <p class="font-size-lg margin-top-1">Rs. 1499</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="font-size-lg margin-top-1">Charges</p>
+            </td>
+            <td>
+              <p class="font-size-lg margin-top-1 margin-x-1">:</p>
+            </td>
+            <td>
+              <p class="font-size-lg margin-top-1">Rs. 99</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><hr class="hr-tag" /></td>
+          </tr>
+          <tr>
+            <td>
+              <p class="font-size-lg text-medium">Total</p>
+            </td>
+            <td>
+              <p class="font-size-lg margin-x-1">:</p>
+            </td>
+            <td>
+              <p class="font-size-lg text-medium">Rs. 1598</p>
+            </td>
+          </tr>
+        </table>
+        <button class="btn btn-secondary margin-top-2">Place order</button>
+      </div>
+    </div>
+  </body>
+</html>
